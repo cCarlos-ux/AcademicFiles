@@ -1,0 +1,53 @@
+Directions:
+1. Do all of these inside a Linux terminal
+2. Store this txt file into a file named "[lastname]-answers.txt"
+3. Answer the listed questions by editing your "[lastname]-answers.txt" file
+4. Create a file, "[lastname]-network.txt", that contains the output of the command "ip a"
+5. Clone this repository: https://github.com/toledobrendo/iacsysadmin_2022_1 inside your home folder, if not already.
+6. Create a folder "[lastname]"
+7. Inside "[lastname]", copy the contents of "btoledo" folder from your "~/iacsysadmin_2022_1" folder.
+8. Modify the copied index.html to use your own name, email and birthdate
+9. Once done, place the "[lastname]-answers.txt", "[lastname]-network.txt" and the webpages folder inside a gzip-compressed archive named "[lastname]_finals.tar.gz"
+	Note: This should be the structure of your "[lastname]_finals.tar.gz":
+	"[lastname]_finals.tar.gz"
+	|-----"[lastname]"
+ 	     	|-----"css"
+  	               |-----index.html
+	      	|-----"img"
+ 	               |-----eagle.jpg
+	      	|-----"activity12"
+	      	|-----"index.html"
+	        |-----"[lastname]-answers"
+	        |-----"[lastname]-network"
+10. Send "[lastname]_finals.tar.gz" to the home folder of user "external" located in server "proglang.btagila.com", password is "123qwe"
+11. Make it so that your work will be displayed when you enter "http://proglang.btagila.com/[lastname]/", "http://proglang.btagila.com/[lastname]/[lastname]-answers.txt" and "http://proglang.btagila.com/[lastname]/[lastname]-network.txt"
+12. Notify the instructor once done
+
+One point per item. This practical exam will have a maximum of 25 points.
+
+Good luck.
+
+Questions:
+a. What command do you use to view all files inside a present working directory? 
+	ls
+b. What distro and version of said distro are you using? 
+	Ubuntu 20.04
+c. How many free space in storage does your Linux VM have?
+	<run df -h>
+d. What command do you use to install applications over a remote repository in Debian-based OS? 
+	sudo apt-get install 
+e. What kernel version are you using right now? 
+	5.4.0-153-generic
+f. What is the octal equivalent of the "-rw-r--r-x" permission?
+	754
+g. What is the UID of the "root" user?
+	0
+h. What command do I use to download a copy of a Git repository into my present working directory? 
+	git clone <repository_URL>
+i. What folder are the web assets used by apache2 stored?
+	The "/var/www" directory.
+j. If I want to view all the options available for the command "tar", what should I use?
+	tar --help or man tar
+k. What is the subnet IP of your machine right now? _______________________
+l. Append in this file a list of at least 3 system users your Linux VM currently has. Complete with their group ID, user ID, Full Name (if available), home folder and shell app location. (3 points)
+	ex. lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
